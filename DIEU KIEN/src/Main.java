@@ -13,5 +13,11 @@ public class Main {
         else {
             System.out.println("Số "+number+" là số lẻ");
         }
+
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        int y;
+        y = (x>0) ?  1: -1;
+        System.out.println(y);
     }
 }
